@@ -12,6 +12,7 @@
 ### Navigating back to page 1
 
 From page 1
+
 1. Click Next to go to page 2
 2. Press the back button on your browser. The table will not be updated.
 
