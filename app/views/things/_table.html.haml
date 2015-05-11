@@ -6,6 +6,6 @@
     %th{order: 'size'} Size
 
   = t.body do |thing|
-    %td= thing.name
+    %td= link_to(thing.name, thing_path(thing))
     %td= thing.description
     %td= thing.size
