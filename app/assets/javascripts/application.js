@@ -18,5 +18,5 @@
 
 // TODO: Move this into a separate init_wizelinks file
 $(document).ready(function() {
-    window.wiselinks = new Wiselinks();
+    window.wiselinks = new Wiselinks($('.container'));
 });

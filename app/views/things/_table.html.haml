@@ -1,11 +1,11 @@
 = osom_table_for @things, class: 'table table-striped table-condenced table-bordered', push: true do |t|
 
   = t.head do
-    %th{order: 'name'} Name
+    %th{order: 'name'} Name (Push)
     %th{order: 'desc'} Description
     %th{order: 'size'} Size
 
   = t.body do |thing|
-    %td= link_to(thing.name, thing_path(thing))
+    %td= link_to(thing.name, thing_path(thing), data: { push: true })
     %td= thing.description
     %td= thing.size
