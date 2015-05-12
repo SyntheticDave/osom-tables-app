@@ -1,4 +1,4 @@
-= osom_table_for @things, class: 'table table-striped table-condenced table-bordered', push: true do |t|
+= osom_table_for @things, class: 'table table-striped table-condenced table-bordered', push: true, async: true do |t|
 
   = t.head do
     %th{order: 'name'} Name

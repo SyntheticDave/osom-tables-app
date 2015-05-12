@@ -2,13 +2,16 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 
-
 gem 'sqlite3'
 gem 'haml'
 gem 'bootstrap-sass'
 gem 'kaminari'
-gem 'osom-tables'
+gem 'turbolinks'
+gem 'jquery-turbolinks'
+
+# gem 'osom-tables'
 # gem 'osom-tables', git: 'https://github.com/jobready/osom-tables.git'
+gem 'osom-tables', path: '/Users/david/code/work/osom-tables'
 
 group :development do
   gem 'byebug'
