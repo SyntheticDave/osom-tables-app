@@ -5,9 +5,7 @@ class ThingsController < ApplicationController
       @things = @things.order_by(params[:order])
     end
 
-    #sleep 0.5
-
-    render partial: 'table', layout: false if request.xhr?
+    render partial: 'table', layout: false if request.wiselinks_partial?
   end
 
   def show

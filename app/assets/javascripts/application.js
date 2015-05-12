@@ -12,5 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require wiselinks
 //= require osom-tables
 //= require_tree .
+
+// TODO: Move this into a separate init_wizelinks file
+$(document).ready(function() {
+    window.wiselinks = new Wiselinks();
+});
