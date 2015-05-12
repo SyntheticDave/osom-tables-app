@@ -1,13 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '4.0.12'
 
 gem 'sqlite3'
 gem 'haml'
 gem 'bootstrap-sass'
 gem 'kaminari'
-gem 'turbolinks'
-gem 'jquery-turbolinks'
+gem 'wiselinks', '~> 1.2.1'
 
 # gem 'osom-tables'
 # gem 'osom-tables', git: 'https://github.com/jobready/osom-tables.git'
@@ -18,10 +17,10 @@ group :development do
 end
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails', '~> 4.0.1'
+  gem 'coffee-rails', '~> 4.0.1'
 
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 2.3.0'

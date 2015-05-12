@@ -1,6 +1,4 @@
 class Thing < ActiveRecord::Base
-  attr_accessible :name, :description, :size
-
   scope :order_by, ->(param) {
     sort = param.ends_with?('_desc') ? 'DESC' : 'ASC'
 

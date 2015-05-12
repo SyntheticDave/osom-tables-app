@@ -1,5 +1,5 @@
 OsomTablesApp::Application.routes.draw do
   resources :things
 
-  match '/' => 'things#index'
+  get '/' => 'things#index'
 end
