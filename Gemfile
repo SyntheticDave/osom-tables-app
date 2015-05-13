@@ -6,11 +6,10 @@ gem 'sqlite3'
 gem 'haml'
 gem 'bootstrap-sass'
 gem 'kaminari'
-gem 'wiselinks', '~> 1.2.1'
 
 # gem 'osom-tables'
-# gem 'osom-tables', git: 'https://github.com/jobready/osom-tables.git'
-gem 'osom-tables', path: '/Users/david/code/work/osom-tables'
+gem 'osom-tables', git: 'https://github.com/jobready/osom-tables.git', ref: '78016dd004fca46080f92e8fee112cd72eb2c951'
+# gem 'osom-tables', path: '/Users/david/code/work/osom-tables'
 
 group :development do
   gem 'byebug'
