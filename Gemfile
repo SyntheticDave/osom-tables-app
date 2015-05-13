@@ -6,7 +6,7 @@ gem 'sqlite3'
 gem 'haml'
 gem 'bootstrap-sass'
 gem 'kaminari'
-gem 'wiselinks', '~> 1.2.1'
+gem 'wiselinks', '1.1.4'
 
 # gem 'osom-tables'
 # gem 'osom-tables', git: 'https://github.com/jobready/osom-tables.git'

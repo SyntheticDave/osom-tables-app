@@ -1,0 +1,6 @@
+- @things.each do |thing|
+  %ul
+    %li= link_to(thing.name, thing_path(thing), data: { push: true })
+    %li= link_to("#{thing.name} (no push)", thing_path(thing))
+    %li= thing.description
+    %li= thing.size

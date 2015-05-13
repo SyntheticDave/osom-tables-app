@@ -11,4 +11,9 @@ class ThingsController < ApplicationController
   def show
     @thing = Thing.find(params[:id])
   end
+
+  # Render list of items without a table
+  def list
+    @things = Thing.limit(10)
+  end
 end
