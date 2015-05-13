@@ -1,5 +1,7 @@
-PATH
-  remote: /Users/david/code/work/osom-tables
+GIT
+  remote: https://github.com/jobready/osom-tables.git
+  revision: 28837173b635c4a99fb60832a9d01ec794a6fa39
+  ref: 28837173b635c4a99fb60832a9d01ec794a6fa39
   specs:
     osom-tables (1.0.0)
 

@@ -9,8 +9,8 @@ gem 'kaminari'
 gem 'wiselinks', '1.1.4'
 
 # gem 'osom-tables'
-# gem 'osom-tables', git: 'https://github.com/jobready/osom-tables.git'
-gem 'osom-tables', path: '/Users/david/code/work/osom-tables'
+gem 'osom-tables', git: 'https://github.com/jobready/osom-tables.git', ref: '28837173b635c4a99fb60832a9d01ec794a6fa39'
+# gem 'osom-tables', path: '/Users/david/code/work/osom-tables'
 
 group :development do
   gem 'byebug'
