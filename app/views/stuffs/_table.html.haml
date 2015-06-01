@@ -1,0 +1,16 @@
+= osom_table_for @stuffs,
+  class: 'table table-striped table-condenced table-bordered',
+  url: stuffs_path,
+  push: true,
+  id: 'stuffs-table',
+  async: @stuffs.blank? do |t|
+
+  = t.head do
+    %th{order: 'name'} Name
+    %th{order: 'desc'} Description
+    %th{order: 'size'} Size
+
+  = t.body do |stuff|
+    %td= link_to(stuff.name, stuff_path(stuff))
+    %td= stuff.description
+    %td= stuff.size
